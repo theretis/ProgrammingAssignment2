@@ -5,7 +5,7 @@
 ## inverseMatrix <- makeCacheMatrix()
 ## inverseMatrix$set(matrix(1:4,2,2))
 ## cacheSolve(inverseMatrix)
-## - any subsequent calls to cacheSolve(a) will be returned the cached 
+## - any subsequent calls to cacheSolve(inverseMatrix) will be returned the cached 
 ## inverse matrix
 
 ## makeCacheMatrix
